@@ -1,5 +1,6 @@
 
 <?php
+echo "hola este es un mensaje jaaajjaja"
 $dbname=getenv("POSTGRESQL_DATABASE");
 //$dbuser=getenv("POSTGRESQL_USER");
 $dbpassword=getenv("POSTGRESQL_PASSWORD");
@@ -21,5 +22,5 @@ while ($row = pg_fetch_row($result)) {
   echo "id: $row[0] nombre: $row[1] apellido: $row[2]";
   echo "<br/>";
 }
-echo "hola este es un mensaje jaaajjaja"
+
 ?>
