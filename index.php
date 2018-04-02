@@ -1,6 +1,6 @@
-
-<?php
 echo "hola este es un mensaje jaaajjaja"
+<?php
+
 $dbname=getenv("POSTGRESQL_DATABASE");
 //$dbuser=getenv("POSTGRESQL_USER");
 $dbpassword=getenv("POSTGRESQL_PASSWORD");
