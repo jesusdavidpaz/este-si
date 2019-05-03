@@ -1,4 +1,4 @@
-﻿echo "hola este es un mensaje jaja"
+﻿echo "hola este es un mensaje jajajajajajaja"
 <?php
 
 $dbname=getenv("POSTGRESQL_DATABASE");
